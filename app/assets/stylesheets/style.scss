@@ -1,0 +1,31 @@
+// General
+
+body {
+  font-family: "Roboto_Slab", Georgia, serif;
+  font-weight: normal;
+  margin: 0;
+}
+.section-container {
+  background: #f2f2f2;
+  min-height: 40vh;
+}
+// Reusable classes
+
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.no-underline {
+  text-decoration: none;
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+}
+.flex-content-centered {
+  display: flex;
+  justify-content: center;
+}

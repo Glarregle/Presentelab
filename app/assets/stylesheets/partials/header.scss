@@ -1,0 +1,46 @@
+.title-wrapper {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 5.4rem 0;
+}
+.huge-title {
+  font-size: 4.768rem;
+  line-height: 5.4rem;
+  margin: 0 0 1.8rem 0;
+  color: #000;
+  letter-spacing: -0.02em;
+}
+.huge-description {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #333333;
+  width: 100%;
+}
+.categories-after-header {
+  width: 100%;
+  background-color: #dd614a;
+  padding: 0.9rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color: #FDFAF9;
+  font-weight: 300;
+  text-align: center;
+  li {
+    display: inline-block;
+    a {
+      background: transparent;
+      color: #fff;
+      padding: 0.45rem 20px;
+      letter-spacing: 0.1em;
+      display: inline-flex;
+      &.active {
+        font-weight: 400;
+      }
+    }
+  }
+}
