@@ -4,10 +4,21 @@ body {
   font-family: "Roboto_Slab", Georgia, serif;
   font-weight: normal;
   margin: 0;
-}
-.section-container {
   background: #f2f2f2;
+}
+.main-content {
+  max-width: 1140px;
   min-height: 40vh;
+  padding-top: 5.4rem;
+  margin: 0 auto;
+}
+.presentation-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  a,
+  img {
+    width: 100%;
+  }
 }
 // Reusable classes
 
